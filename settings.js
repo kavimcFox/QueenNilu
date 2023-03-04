@@ -66,7 +66,7 @@ global.SONG_DOWN = '```⬇️ Downloading Your Song...```'
 global.SONG_UP = '```⬆️ Uploding Your Song...```'
 //👇 212 Number block
 global.NUMBER_212_BLOCK = 'true'
-//👇 Menu imoji 
+//👇 Menu imoji .jpg
 global.MENU_IMOJI = '👸|🪄'
 //👇 Your time zone ( use correct time zone )
 global.TIME_ZONE = process.env.TIME_ZONE || 'Asia/Colombo'
@@ -77,17 +77,17 @@ global.SEX_VIDEO_DOWNLOAD = process.env.SEX_VIDEO_DOWNLOAD || 'false'
 //👇 Change Bot Language (English-' EN ', Sinhala , ' SI ' , Tamil - ' TL ')
 global.LANG = 'EN'
 //Alive logo
-global.alivelogo = process.env.ALIVE_IMAGE || `https://te.legra.ph/file/3e57249993356ba15109f.jpg`
+global.alivelogo = process.env.ALIVE_IMAGE || `https://imgur.com/0SqgH2x.jpg`
 //👇 Alive message
-global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || ``
+global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || `true`
 //👇 Welcome Mesaage
-global.WELCOME = process.env.WELCOME || ``
+global.WELCOME = process.env.WELCOME || `true`
 //👇 welcome image 
-global.WELCOME_IMAGE = process.env.WELCOME_IMAGE || ``
+global.WELCOME_IMAGE = process.env.WELCOME_IMAGE || `true`
 //👇 Goodbye message 
 global.GOODBYE = process.env.GOODBYE || ``
 //👇 Good bye image
-global.GOODBYE_IMAGE = process.env.GOODBYE_IMAGE || ``
+global.GOODBYE_IMAGE = process.env.GOODBYE_IMAGE || `true`
 //👇 Send Welcome ( true or false )
 global.SEND_WELCOME = process.env.SEND_WELCOME || false
 //👇 Send block command message (true or false )
@@ -158,7 +158,7 @@ global.APIKeys = {
 }
 
 global.thumb = fs.readFileSync('./Media/image/Nilu.jpg')
-global.alivelogo = `https://te.legra.ph/file/3e57249993356ba15109f.jpg`
+global.alivelogo = `https://imgur.com/0SqgH2x.jpg`
 global.imgalive = fs.readFileSync('./Media/image/Nilu.jpg')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
